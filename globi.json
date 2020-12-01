@@ -1,0 +1,162 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "LaManna.et.al_2020_doi.org_10.1111_1365-2745.13530-pollinatordata1.csv",
+    "dcterms:bibliographicCitation" : "LaManna, JA, Burkle, LA, Belote, RT, Myers, JA. Biotic and abiotic drivers of plant–pollinator community assembly across wildfire gradients. J Ecol. 2020; 00: 1– 14. https://doi.org/10.1111/1365-2745.13530 .",
+    "doi": "10.1111/1365-2745.13530",
+    "interactionTypeName": "pollinates",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002455",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Number",
+        "titles" : "Number",
+        "datatype" : "string"
+      }, {
+        "name" : "sp",
+        "titles" : "sp",
+        "datatype" : "string"
+      }, {
+        "name" : "SITE",
+        "titles" : "SITE",
+        "datatype" : "string"
+      }, {
+        "name" : "FIRE_AGE",
+        "titles" : "FIRE_AGE",
+        "datatype" : "string"
+      }, {
+        "name" : "FIRE_SEVERITY",
+        "titles" : "FIRE_SEVERITY",
+        "datatype" : "string"
+      }, {
+        "name" : "BLOCK",
+        "titles" : "BLOCK",
+        "datatype" : "string"
+      }, {
+        "name" : "TREATMENT",
+        "titles" : "TREATMENT",
+        "datatype" : "string"
+      }, {
+        "name" : "TRANSECT_COMBO",
+        "titles" : "TRANSECT_COMBO",
+        "datatype" : "string"
+      }, {
+        "name" : "transect",
+        "titles" : "transect",
+        "datatype" : "string"
+      }, {
+        "name" : "FIELD_NO",
+        "titles" : "FIELD_NO",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "ORDER",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "FAMILY",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "GENUS",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubgenus",
+        "titles" : "SUB_GENUS",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithet",
+        "titles" : "SPECIES",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSex",
+        "titles" : "SEX",
+        "datatype" : "string"
+      }, {
+        "name" : "FLOWER_CODE",
+        "titles" : "FLOWER_CODE",
+        "datatype" : "string"
+      }, {
+        "name" : "USDA_CODE",
+        "titles" : "USDA_CODE",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecies",
+        "titles" : "FLOWER_SPECIES",
+        "datatype" : "string"
+      }, {
+        "name" : "COUNTRY",
+        "titles" : "COUNTRY",
+        "datatype" : "string"
+      }, {
+        "name" : "STATE",
+        "titles" : "STATE",
+        "datatype" : "string"
+      }, {
+        "name" : "COUNTY",
+        "titles" : "COUNTY",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "LATITUDE",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "LONGITUDE",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "DATE",
+        "datatype": {
+          "base": "date",
+          "format": "MM/dd/YYYY"
+        }
+      }, {
+        "name" : "TIME",
+        "titles" : "TIME",
+        "datatype" : "string"
+      }, {
+        "name" : "COLLECTOR",
+        "titles" : "COLLECTOR",
+        "datatype" : "string"
+      }, {
+        "name" : "DETERMINED_BY",
+        "titles" : "DETERMINED_BY",
+        "datatype" : "string"
+      }, {
+        "name" : "NOTES",
+        "titles" : "NOTES",
+        "datatype" : "string"
+      }, {
+        "name" : "VERIFIED_BY",
+        "titles" : "VERIFIED_BY",
+        "datatype" : "string"
+      }, {
+        "name" : "value",
+        "titles" : "value",
+        "datatype" : "string"
+      }, {
+        "name" : "yr",
+        "titles" : "yr",
+        "datatype" : "string"
+      }, {
+        "name" : "newID",
+        "titles" : "newID",
+        "datatype" : "string"
+      }, {
+        "name" : "Idlevel",
+        "titles" : "Idlevel",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
